@@ -2,7 +2,7 @@
 #!desc=meiyanxiangji
 
 [Script]
-myxj = type=http-response, pattern=^https:\/\/api\.meiyan\.com\/vip\/user_info\.json, script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/myxj.js, requires-body=true, max-size=-1, timeout=60
+myxj = type=http-response, pattern=^https:\/\/api\.meiyan\.com\/vip\/user_info\.json, script-path=https://raw.githubusercontent.com/tougee123/Shadowrocket.module/main/myxj.js, requires-body=true, max-size=-1, timeout=60
 
 [MITM]
 hostname = %APPEND% api.meiyan.com
